@@ -1,0 +1,10 @@
+{
+  "name": "Horloge cadran Leclerc",
+  "author": "gaetanchristophe-commits",
+  "desc": "Horloge à aiguilles avec jour et date, aux couleurs E.Leclerc",
+  "platforms": ["pi/epoch-1", "pi/epoch-2"],
+  "offline": {
+    "support": "yes",
+    "info": "Fonctionne sans Internet, mais l'heure doit etre exacte"
+  }
+}

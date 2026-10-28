@@ -1,0 +1,22 @@
+{
+  "name": "Horloge cadran Leclerc",
+  "permissions": {},
+  "options": [
+    {
+      "title": "Afficher la trotteuse (aiguille des secondes)",
+      "name": "trotteuse",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "title": "Mouvement de la trotteuse",
+      "name": "mouvement",
+      "type": "select",
+      "options": [
+        ["saccade", "Saccadé (une fois par seconde)"],
+        ["fluide", "Fluide"]
+      ],
+      "default": "saccade"
+    }
+  ]
+}
